@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Riya Malvi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
+    <!-- <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a> -->
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Riya Malvi</h1>
+        <h2>UI/UX Designer / Software Engineer</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a> <!-- edit this with the about me that i drafted up - i think i need to edit that-->
+            <a onclick="showwork()">resume</a>
+            <!-- <a onclick="showcontact()">contact</a> -->
+        </div>
+       <!--  <table>
+                <tr>
+                   <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>
+                </tr>
+        </table> -->
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>resume.</h1>
+        <section>
+            <p>
+                I’m a third-year software engineering student with experience in a tech startup, game development, web development, and building interactive technologies. Having sub-majored in Interaction Design, I’m passionate about building software that’s human-centered and proved through meaningful user experiences.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Java</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+                <div><i class="fas fa-circle"></i>&nbsp;C++</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Python</div>
+                <div><i class="fas fa-circle"></i>&nbsp;SQL</div>
+            </div>
+            <div class="resume-actions">
+                <a class="btn_one" href="resume.pdf" target="_blank" rel="noopener noreferrer">view resume</a>
+                <a class="btn_two" href="resume.pdf" download>download resume</a>
+            </div>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>about me & my internship experience</h1>
+            <section>
+                <!-- <h2>about me</h2> -->
+                    <p>
+                        I'm a third-year Software Engineering student who wants to build software that's impactful, sustainable, and ethical, not just software that works. Software shapes how people live and work at scale, and that responsibility is exactly why I chose this path. Corporate software is often built the way it's "always been done," focused on profit over people, and I want to challenge that by proving ethical, sustainable software is not a trade-off against success, but how it should work in the first place.        </p>
+                     <p>
+                        Through my internship at Vaylo Technologies, a construction project management SaaS company, I worked on real-time web development, gained insight into working with larger databases, and experienced what it's like managing teams and operating in a startup environment, from making pitch decks to understanding what makes software reach a target audience. I also saw how software project management works in practice beyond the build, a space I want to keep growing in alongside a team who care as much about why as what they build. </p>
+                    <p> 
+                        Outside of Vaylo, my sub-major in Interaction Design lets me build technology with users in mind, which is exactly the mindset I wanted this website to reflect. Other than that, I love dancing, video editing, and journaling, which keep me grounded and balance my career with my hobbies.</p>
+            </section>
+            <section>
+                <h2>internship reflection</h2>
+                <p>
+                    Before starting my internship at Vaylo Technologies, I had two main expectations. First, I worried the workload would be overwhelming, especially since I was balancing this with full-time university study. I thought I would not be able to focus on my coursework alongside the demands of the role. Second, I expected a highly professional, almost intimidating environment, where I would feel hesitant to voice my opinions on projects or tasks for fear of seeming inexperienced and providing an "incorrect" perspective. However, the workload was manageable, and the team was genuinely understanding when university deadlines got busier, allowing me the flexibility to prioritise my studies when needed. Rather than a rigid or intimidating culture, I found a supportive and approachable team where colleagues were happy to help, even taking time to look over university work I was stuck on. This made the transition into a professional environment far smoother than I had anticipated.
+                </p>
+                <p>
+                    One of the most important lessons I learned was the value of confidence in speaking up. Early on, I often kept my thoughts to myself, worried they were not valuable enough to share. Over time, I realised that staying silent did not benefit anyone and it only created self-induced stress. Towards the end of my internship, after speaking more openly with employers and colleagues, I became more comfortable contributing my perspective. This was a key moment because it taught me that my input had value, and that working towards becoming a confident employee often requires pushing past self-doubt rather than waiting until I felt "ready."
+                </p>
+                <p>
+                    This internship has directly shaped the type of role I want to pursue. Working across both technical tasks like code reviews and UI/design feedback, and business-facing responsibilities such as developing pitch decks, contract management, and investor outreach gave me exposure to both sides of a product's lifecycle. At the time, this felt like a scattered mix of responsibilities, but in hindsight, it was a blessing in disguise because it showed me that I am drawn to roles that bridge technical and business functions, which is exactly what led me toward software project management as a career direction.
+                </p>
+                <p>
+                    In terms of the value I can offer an employer, I believe it lies in this same hybrid strength; the ability to understand and communicate with both engineering and business stakeholders. I can engage meaningfully in technical discussions from code reviews to product design feedback, while also managing the business-facing side of a project, such as client relationships, timelines, and stakeholder communication. I can demonstrate this through my experience coordinating cross-functional meetings, translating user feedback into actionable product input, and managing tasks end-to-end, from research through to delivery. This combination positions me well for project management roles where clear communication between technical and non-technical teams is critical to success.
+                </p>
+            </section>
+
+        </div>
+        <!-- <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>contact.</h1>
+            <section>
+                <h2>contact me</h2>
+                <p>
+                    <form>
+                        <input type="text" placeholder="name" required>
+                        <input type="email" placeholder="email" required><br>
+                        <textarea placeholder="your message" required rows="5"></textarea><br>
+                        <button class="btn_one">send</button>
+                    </form> 
+                </p>
+            </section>
+        </div> -->
+        <!-- <div id="footer">
+            made on earth by a human <br> <a href="https://imfunniee.github.io">imfunniee</a>
+        </div>> -->
+    <script src="index.js" type="text/javascript"></script>
+    <!-- <script src="particles.js"></script> -->
+    <script src="app.js"></script>
+</body>
+</html>
